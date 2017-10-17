@@ -1,0 +1,10 @@
+ <script>
+     swal({
+      title: "Sukses!",
+      text: "Data Berhasil diubah, silahkan login Lagi.",
+      type: "success",
+      showConfirmButton: true
+        }, function(){
+      window.location.href = "logout.php";
+        });
+  </script>
